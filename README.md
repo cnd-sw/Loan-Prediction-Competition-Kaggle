@@ -5,28 +5,6 @@ It builds an end-to-end pipeline — from data preprocessing to model training, 
 
 ---
 
-## Project Structure
-
-Loan Prediction Kaggle/
-├── data/
-│   ├── .gitkeep                  # placeholder (real datasets not tracked)
-│   ├── train.csv                 # training data (local only)
-│   └── test.csv                  # test data (local only)
-│
-├── models/
-│   ├── .gitkeep
-│   └── trained_model.pkl         # saved model (auto-generated)
-│
-├── src/
-│   ├── data_preprocessing.py     # handles missing values, encoding, cleaning
-│   ├── model_training.py         # trains model and plots ROC-AUC
-│   ├── model_evaluation.py       # metrics, cross-validation
-│   └── predict.py                # loads model, runs inference
-│
-├── run.py                        # executes the full pipeline
-├── requirements.txt              # all dependencies
-└── README.md                     # project documentation
-
 ---
 
 ## Features
@@ -106,5 +84,6 @@ Data files are intentionally excluded from version control for privacy and size 
 Use your own dataset under data/.
 
 ⸻
+
 
 
