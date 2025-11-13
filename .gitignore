@@ -1,0 +1,11 @@
+data/
+!data/.gitkeep
+venv/
+.env/
+loanpred/
+__pycache__/
+*.pyc
+models/
+!models/.gitkeep
+.ipynb_checkpoints/
+.DS_Store
